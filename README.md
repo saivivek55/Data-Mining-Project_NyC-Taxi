@@ -46,4 +46,4 @@ This project leverages a combination of predictive modeling, classification tech
 This project provides a data-driven approach to optimizing NYC taxi services by predicting key performance metrics, segmenting trip demand, and uncovering recurring travel patterns. The interactive dashboard offers actionable insights for improving fleet dispatch, route planning, and operational efficiency.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the Apache License.
