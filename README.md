@@ -9,6 +9,10 @@ This project leverages a combination of predictive modeling, classification tech
 - **Pattern Mining:** Uses association rule mining (e.g., Apriori) to identify frequent itemsets and relationships between taxi zones and payment methods.
 - **Interactive Dashboard:** An interactive Tableau dashboard visualizes demand trends, route patterns, and key performance metrics for actionable insights.
 
+
+screenshot: "/src/assets/projects/DM_Taxi_2024.png"
+
+
 ## Technologies Used
 **Languages & Libraries:** Python, Pandas, scikit-learn  
 **Modeling Techniques:** Predictive Modelling, Time Series Modelling, Classification (Random Forest, XGBoost, Logistic Regression, SVM), Clustering (Hierarchical, K-Means, GMM), Pattern Mining (Association Rule Mining, Apriori)  
