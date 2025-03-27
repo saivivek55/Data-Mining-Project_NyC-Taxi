@@ -9,9 +9,8 @@ This project leverages a combination of predictive modeling, classification tech
 - **Pattern Mining:** Uses association rule mining (e.g., Apriori) to identify frequent itemsets and relationships between taxi zones and payment methods.
 - **Interactive Dashboard:** An interactive Tableau dashboard visualizes demand trends, route patterns, and key performance metrics for actionable insights.
 
-
-screenshot: "/src/assets/projects/DM_Taxi_2024.png"
-
+## Dashboard Screenshot
+![Dashboard Screenshot](NYC_Taxi.jpg)
 
 ## Technologies Used
 **Languages & Libraries:** Python, Pandas, scikit-learn  
@@ -26,6 +25,12 @@ screenshot: "/src/assets/projects/DM_Taxi_2024.png"
 4. **Visualization:** Developed an interactive dashboard in Tableau to present insights and facilitate data-driven decision-making.
 5. **Insights:** Uncovered high-demand zones, prevalent payment methods, and key route relationships to support optimized taxi dispatching and urban mobility strategies.
 
+## Key Insights
+- **Consistent Demand Patterns:** Taxi trips are evenly distributed on weekdays, with peak activity observed on Fridays and Saturdays. Peak hours from 5 PM to 8 PM highlight the critical rush-hour period.
+- **Manhattan as the Hub:** Specific Manhattan zones (236, 237, 161, 107, and 132) consistently record the highest trip counts, establishing Manhattan as the epicenter of NYC taxi activity. Additionally, inter-borough connectors between Queens and Manhattan play a vital role in overall demand.
+- **Payment Trends & Revenue Opportunities:** Short to medium trips (0.1–4 miles) exhibit a strong preference for digital payments—with over 90% of trips in key zones being cashless—and generate higher revenue per mile compared to longer trips.
+- **Operational Efficiency & Strategic Impact:** Variations in trip duration and passenger counts between weekdays and weekends provide actionable insights for fleet management. These findings can drive strategic improvements in taxi dispatch, pricing strategies, and resource allocation.
+
 ## Installation
 1. **Clone the Repository:**
    ```bash
@@ -35,14 +40,7 @@ screenshot: "/src/assets/projects/DM_Taxi_2024.png"
    ```bash
    pip install -r requirements.txt
 
-3. **Run the Scripts:** Execute all the main data processing script to generate insights:
-    ```bash
-    python main.py
-
-## Usage
-**Configuration:** Modify configuration parameters within the scripts as needed.
-**Dashboard:** If available, open the interactive dashboard (embedded via Tableau Public, for example) to explore the visualizations.
-**Results:** Review the generated metrics and insights to inform decisions on taxi operations and urban planning.
+3. **Run the Scripts:** Execute all the main data processing script to generate insights.
 
 ## Conclusion
 This project provides a data-driven approach to optimizing NYC taxi services by predicting key performance metrics, segmenting trip demand, and uncovering recurring travel patterns. The interactive dashboard offers actionable insights for improving fleet dispatch, route planning, and operational efficiency.
