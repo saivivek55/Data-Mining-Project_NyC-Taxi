@@ -37,8 +37,6 @@ This project leverages a combination of predictive modeling, classification tech
    git clone https://github.com/saivivek55/Data-Mining-Project_NyC-Taxi.git
 
 2. **Install Dependencies:**
-   ```bash
-   pip install -r requirements.txt
 
 3. **Run the Scripts:** Execute all the main data processing script to generate insights.
 
